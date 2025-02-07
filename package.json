@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.7.1",
-    "next": "14.2.2",
+    "i": "^0.3.7",
+    "next": "^14.2.2",
+    "reacr": "^1.0.0",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",

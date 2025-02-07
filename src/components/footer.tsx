@@ -27,7 +27,7 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-lg">SHOP.CO</h3>
             <p className="mt-2 text-sm">
-              We have clothes that suit your style and which you're proud to wear. From women to men.
+              We have clothes that suit your style and which you&apos;re proud to wear. From women to men.
             </p>
             <div className="flex mt-4 space-x-4">
               {/* Social Icons */}

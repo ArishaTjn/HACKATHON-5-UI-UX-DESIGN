@@ -1,10 +1,10 @@
 import React from "react";
-
+import Image from "next/image";
 const TopSelling = () => {
   const products = [
     {
       id: 1,
-      image: "/images/images.png-11", // Replace with actual image URLs
+      image: "/images/images.png-11", 
       name: "Vertical Striped Shirt",
       rating: "5.0/5",
       price: "$186",
@@ -43,11 +43,13 @@ const TopSelling = () => {
             key={product.id}
             className="bg-white shadow-md p-4 rounded-lg text-center"
           >
-            <img
+            <Image
               src={product.image}
               alt={product.name}
-              className="w-full h-48 object-cover rounded-md mb-4"
-            />
+              width={300}
+              height={300}
+              className="w-full h-48 object-cover rounded-md mb-4"></Image>
+            
             <h3 className="text-lg font-semibold mb-2">{product.name}</h3>
             <p className="text-sm text-yellow-600 mb-2">{product.rating}</p>
             <div className="text-lg font-bold">

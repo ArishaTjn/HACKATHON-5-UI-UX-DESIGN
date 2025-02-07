@@ -14,9 +14,9 @@ function Hero  ()  {
           Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.
         </p>
         <div className="relative">
-  <img
+  <Image
     src="/images/Rectangle 2.png" 
-    alt="Models"
+    alt="Models" width={600} height={500}
     className=" justify-items-start"/>
 </div>
             
